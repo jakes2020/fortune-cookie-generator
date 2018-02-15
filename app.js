@@ -1,3 +1,5 @@
+var output;
+
 var list = [
 	"your straight",
 	"your gay", 
@@ -8,23 +10,43 @@ var list = [
 	]
 
 
-function rng(a, b, c, d, e){
-	if (a = 0){
-		return a = var list[0]
-	};
 
-	else if (b = 1){
-		return b = var list[1]
-	}
-	else if (c = 2){
-		return c = var list[2]
-	}
-	else if (d = 3){
-		return d = var list[3]
-	}
-	else if (e = 4){
-		return e = var list[4]
-	}
-	
-	
+var randomCookie = Math.floor(Math.random() * 6);
+
+function rng(){ 
+	Math.floor(Math.random() * 6);
 }
+
+function cookies(){
+	if (randomCookie == 0){
+		return output = list[0]
+	}
+
+	else if(randomCookie == 1){
+
+		return output = list[1]
+	}
+
+	else if(randomCookie == 2){
+
+		return output = list[2]
+	}
+
+	else if(randomCookie == 3){
+
+		return output = list[3]
+	}
+
+	else if(randomCookie == 4){
+
+		return output = list[4]
+	}
+
+	else if(randomCookie == 5){
+
+		return output = list[5]
+	}
+	
+};
+cookies();
+console.log(cookies(output))
