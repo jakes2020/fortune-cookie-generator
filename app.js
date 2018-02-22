@@ -21,6 +21,7 @@ function rng(){
 
 function cookies(){
 	if (randomCookie == 0){
+
 		return output = list[0]
 	}
 
@@ -54,4 +55,4 @@ function cookies(){
 cookies();
 console.log(cookies(output))
 
-document.getElementById("gay").innerHTML = output
+document.getElementById("gay").innerHTML = output;
