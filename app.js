@@ -15,7 +15,9 @@ var randomCookie = Math.floor(Math.random() * 6);
 
 function rng(){ 
 	Math.floor(Math.random() * 6);
-}
+};
+
+
 
 function cookies(){
 	if (randomCookie == 0){
@@ -48,5 +50,8 @@ function cookies(){
 	}
 	
 };
+
 cookies();
 console.log(cookies(output))
+
+document.getElementById("gay").innerHTML = output
