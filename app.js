@@ -56,3 +56,4 @@ cookies();
 console.log(cookies(output))
 
 document.getElementById("gay").innerHTML = output;
+object.onclick = function(""){myScript};
